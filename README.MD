@@ -28,3 +28,16 @@ Time         : 43.966s (Solving: 43.71s 1st Model: 40.42s Unsat: 0.09s)
 CPU Time     : 267.611s
 Threads      : 8        (Winner: 1)
 ```
+
+Si può sfruttare lo script python myclingo.py per eseguire il codice
+
+```bash
+cd ..
+python myclingo.py
+```
+Tale script salva i gli hold dentro a hold.txt, per plottare i risultati si può eseguire il seguente comando
+```bash
+python plot.py
+```
+
+Si creerà il video dentro a output_images
